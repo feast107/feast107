@@ -11,4 +11,4 @@
 </div>
 
 
-<img align="bo" src="https://count.getloli.com/get/@feast107?theme=rule34" />
+<img align="bo" src="https://github-readme-stats.vercel.app/api/top-langs/?username=feast107&hide_langs=markdown&layout=compact&theme=dark" />
