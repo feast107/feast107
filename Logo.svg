@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 933 933" role="img" aria-labelledby="lt ld">
+  <title id="lt">Feast</title>
+  <desc id="ld"></desc>
+  <defs>
+    <linearGradient id="sheenG" gradientUnits="userSpaceOnUse" x1="148.2" y1="148.6" x2="222.8" y2="301.4">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="stemClip"><polygon points="217.0,371.0 133.0,225.0 238.0,225.0 240.0,227.0 292.0,321.0 308.0,346.0 315.0,361.0 334.0,391.0 340.0,404.0 345.0,410.0 355.0,430.0 360.0,436.0 366.0,449.0 371.0,455.0 377.0,468.0 382.0,474.0 392.0,494.0 397.0,500.0 411.0,527.0 445.0,583.0 520.0,715.0 470.0,803.0 467.0,805.0 390.0,669.0 385.0,663.0 271.0,463.0 266.0,457.0 248.0,423.0 243.0,417.0 233.0,397.0 217.0,372.0"/></clipPath>
+  </defs>
+  <style>
+.facet,.ufacet,.stem,.armTop,.armMid,.tick,.cluster,.sheen{transform-box:view-box}
+@media (prefers-reduced-motion: no-preference){
+.bg{animation:bgIn .6s ease-out both}
+.cluster{animation:sway 18s ease-in-out 2.4s infinite}
+.facet{animation:facetIn .95s cubic-bezier(.16,.84,.3,1.08) both,glow 7s ease-in-out infinite}
+.ufacet{animation:facetIn .95s cubic-bezier(.16,.84,.3,1.08) both,glow 7s ease-in-out infinite}
+.stem{animation:stemIn .75s cubic-bezier(.2,.75,.25,1) 1.05s both}
+.armTop{animation:armIn .6s cubic-bezier(.2,.75,.25,1) 1.4s both}
+.armMid{animation:armIn .55s cubic-bezier(.2,.75,.25,1) 1.6s both}
+.tick{animation:tickIn .5s cubic-bezier(.2,.9,.3,1.45) 1.85s both,pulse 2.8s ease-in-out 3s infinite}
+.sheen{opacity:0;animation:sheen 3.8s linear 3.4s infinite}
+}
+@keyframes bgIn{from{opacity:0}}
+@keyframes facetIn{from{opacity:0;transform:scale(.45)}to{opacity:1;transform:scale(1)}}
+@keyframes glow{0%,100%{opacity:1}50%{opacity:.72}}
+@keyframes sway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(2.1deg)}}
+@keyframes stemIn{from{opacity:0;transform:scaleY(0)}to{opacity:1;transform:scaleY(1)}}
+@keyframes armIn{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
+@keyframes tickIn{from{opacity:0;transform:scale(0) rotate(-45deg)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+@keyframes sheen{0%{opacity:0;transform:translate(-62.3px,-127.4px)}10%{opacity:.7}55%{opacity:.7}100%{opacity:0;transform:translate(353.8px,723.8px)}}
+  </style>
+  <rect class="bg" x="0" y="0" width="933" height="933" rx="122" fill="#000000"/>
+  <g class="under">
+    <polygon class="ufacet" style="transform-origin:333.2px 460.7px;transform-box:view-box;animation-delay:0.50s,2.75s" points="217.0,371.0 133.0,225.0 238.0,225.0 240.0,227.0 292.0,321.0 308.0,346.0 315.0,361.0 334.0,391.0 340.0,404.0 345.0,410.0 355.0,430.0 360.0,436.0 366.0,449.0 371.0,455.0 377.0,468.0 382.0,474.0 392.0,494.0 397.0,500.0 411.0,527.0 445.0,583.0 520.0,715.0 470.0,803.0 467.0,805.0 390.0,669.0 385.0,663.0 271.0,463.0 266.0,457.0 248.0,423.0 243.0,417.0 233.0,397.0 217.0,372.0" fill="#002220"/>
+    <polygon class="ufacet" style="transform-origin:597.1px 263.7px;transform-box:view-box;animation-delay:0.68s,3.10s" points="617.0,225.0 803.0,225.0 752.0,314.0 724.0,316.0 360.0,316.0 308.0,225.0 616.0,225.0" fill="#002220"/>
+    <polygon class="ufacet" style="transform-origin:521.5px 436.3px;transform-box:view-box;animation-delay:0.84s,3.45s" points="455.0,466.0 445.0,466.0 394.0,376.0 716.0,376.0 663.0,468.0 456.0,466.0" fill="#002220"/>
+    <polygon class="ufacet" style="transform-origin:585.0px 584.2px;transform-box:view-box;animation-delay:0.98s,3.80s" points="581.0,611.0 556.0,652.0 576.0,524.0 631.0,524.0 581.0,610.0" fill="#002220"/>
+  </g>
+  <g class="cluster" style="transform-origin:470.3px 476.9px;transform-box:view-box">
+    <polygon class="facet" style="transform-origin:610.5px 398.2px;transform-box:view-box;animation-delay:0.53s,2.60s" points="561.0,375.0 573.0,375.0 574.0,373.0 581.0,316.0 611.0,316.0 664.0,375.0 697.0,374.0 644.0,316.0 725.0,316.0 780.0,465.0 778.0,465.0 778.0,463.0 758.0,443.0 758.0,441.0 720.0,401.0 711.0,389.0 709.0,389.0 716.0,376.0 394.0,376.0 445.0,466.0 536.0,467.0 518.0,600.0 406.0,517.0 324.0,373.0 467.0,316.0 557.0,316.0 549.0,375.0 560.0,375.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:287.4px 554.8px;transform-box:view-box;animation-delay:0.62s,2.95s" points="228.0,716.0 239.0,422.0 249.0,430.0 251.0,429.0 258.0,444.0 263.0,450.0 273.0,470.0 278.0,476.0 288.0,496.0 293.0,502.0 299.0,515.0 304.0,521.0 314.0,541.0 319.0,547.0 329.0,567.0 334.0,573.0 344.0,593.0 388.0,667.0 385.0,671.0 230.0,729.0 228.0,729.0 228.0,717.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:681.6px 509.8px;transform-box:view-box;animation-delay:0.66s,3.30s" points="606.0,569.0 631.0,524.0 576.0,524.0 563.0,604.0 541.0,611.0 560.0,475.0 559.0,467.0 663.0,468.0 696.0,410.0 740.0,458.0 740.0,460.0 750.0,469.0 750.0,471.0 759.0,479.0 759.0,481.0 769.0,490.0 769.0,492.0 778.0,500.0 778.0,502.0 788.0,511.0 792.0,518.0 595.0,592.0 592.0,591.0 605.0,569.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:594.4px 665.0px;transform-box:view-box;animation-delay:0.69s,3.65s" points="613.0,747.0 582.0,783.0 541.0,638.0 558.0,632.0 555.0,649.0 556.0,655.0 572.0,625.0 580.0,624.0 774.0,551.0 613.0,746.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:347.5px 245.7px;transform-box:view-box;animation-delay:0.78s,4.00s" points="384.0,159.0 493.0,225.0 308.0,225.0 359.0,316.0 400.0,316.0 313.0,351.0 310.0,351.0 276.0,291.0 278.0,291.0 331.0,135.0 335.0,129.0 383.0,159.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:180.0px 522.1px;transform-box:view-box;animation-delay:0.86s,4.35s" points="210.0,537.0 206.0,668.0 204.0,681.0 108.0,413.0 108.0,410.0 214.0,410.0 210.0,536.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:524.0px 178.9px;transform-box:view-box;animation-delay:0.88s,4.70s" points="405.0,139.0 657.0,191.0 655.0,194.0 608.0,225.0 541.0,225.0 398.0,139.0 404.0,139.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:386.1px 738.5px;transform-box:view-box;animation-delay:0.81s,5.05s" points="433.0,747.0 450.0,774.0 446.0,775.0 263.0,743.0 267.0,740.0 395.0,692.0 402.0,691.0 433.0,746.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:518.7px 720.0px;transform-box:view-box;animation-delay:0.74s,5.40s" points="494.0,655.0 518.0,647.0 559.0,790.0 559.0,794.0 556.0,794.0 483.0,781.0 520.0,717.0 517.0,708.0 487.0,658.0 494.0,656.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:167.7px 350.0px;transform-box:view-box;animation-delay:0.95s,5.75s" points="148.0,346.0 179.0,310.0 179.0,308.0 181.0,308.0 221.0,378.0 219.0,385.0 117.0,385.0 117.0,383.0 148.0,347.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:274.3px 202.7px;transform-box:view-box;animation-delay:0.97s,6.10s" points="280.0,186.0 291.0,173.0 292.0,175.0 261.0,263.0 242.0,232.0 280.0,187.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:473.6px 607.1px;transform-box:view-box;animation-delay:0.45s,6.45s" points="507.0,625.0 475.0,637.0 472.0,629.0 439.0,574.0 439.0,572.0 443.0,574.0 507.0,622.0 507.0,624.0" fill="#002220"/>
+    <polygon class="facet" style="transform-origin:672.3px 218.7px;transform-box:view-box;animation-delay:0.95s,6.80s" points="662.0,225.0 653.0,224.0 681.0,205.0 685.0,208.0 690.0,225.0 663.0,225.0" fill="#002220"/>
+  </g>
+  <g class="mark">
+    <polygon class="stem" style="transform-origin:185.5px 225.0px;transform-box:view-box" points="217.0,371.0 133.0,225.0 238.0,225.0 240.0,227.0 292.0,321.0 308.0,346.0 315.0,361.0 334.0,391.0 340.0,404.0 345.0,410.0 355.0,430.0 360.0,436.0 366.0,449.0 371.0,455.0 377.0,468.0 382.0,474.0 392.0,494.0 397.0,500.0 411.0,527.0 445.0,583.0 520.0,715.0 470.0,803.0 467.0,805.0 390.0,669.0 385.0,663.0 271.0,463.0 266.0,457.0 248.0,423.0 243.0,417.0 233.0,397.0 217.0,372.0" fill="#00CED6"/>
+    <polygon class="armTop" style="transform-origin:334.0px 270.5px;transform-box:view-box" points="617.0,225.0 803.0,225.0 752.0,314.0 724.0,316.0 360.0,316.0 308.0,225.0 616.0,225.0" fill="#00CED6"/>
+    <polygon class="armMid" style="transform-origin:419.5px 421.0px;transform-box:view-box" points="455.0,466.0 445.0,466.0 394.0,376.0 716.0,376.0 663.0,468.0 456.0,466.0" fill="#006879"/>
+    <polygon class="tick" style="transform-origin:585.0px 584.2px;transform-box:view-box" points="581.0,611.0 556.0,652.0 576.0,524.0 631.0,524.0 581.0,610.0" fill="#00CED6"/>
+    <g clip-path="url(#stemClip)">
+      <polygon class="sheen" points="248.2,99.7 322.9,252.5 122.8,350.3 48.1,197.5" fill="url(#sheenG)"/>
+    </g>
+  </g>
+</svg>

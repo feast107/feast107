@@ -5,7 +5,7 @@
 <div align="left" width=320>
 
 <img align="bottom"  src="https://count.getloli.com/get/@feast107?theme=rule34" />
-<img width=200 src="./Logo.png">
+<img width=200 src="./Logo.svg">
 </div>
 
 <div align="left" width=200>
